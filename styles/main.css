@@ -45,7 +45,9 @@
   position: fixed;
   right: 0%;
   top: 18%;
-  padding: 5%; 
+  padding: 5%;
+  border-style: solid;
+  border-color: pink;
 
 }
 
@@ -95,9 +97,30 @@
 }
 
 aside {
-  /*position: relative;*/
-  float: right;
+  border-radius: 30px;
   width: 100px;
-  min-height: 300px;
+  /*min-height: 300px;*/
   margin: 0 0 20px 0;
+  border-style: solid;
 }
+
+aside section {
+  border-style: style;
+  border-color: purple;
+  margin: 0 0 0 0;
+  padding 2em;
+}
+
+section #topcats {
+  border-style: solid;
+  border-color: yellow;
+}
+.catimg {
+  float: left;
+  background-color: yellow;
+}
+
+.cats {
+  border-style: solid;
+  border-color: red;
+  }
